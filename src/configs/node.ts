@@ -16,5 +16,7 @@ export const node = mergeConfigs<Linter.Config>(n.configs['flat/recommended'], {
   rules: {
     'n/no-missing-import': 'off',
     'n/no-extraneous-import': 'off',
+    'n/no-unpublished-import': 'off',
+    'n/no-unpublished-require': 'off',
   },
 })
