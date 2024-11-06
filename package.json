@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "ESLint sharable configs",
   "license": "MIT",
+  "private": false,
   "repository": {
     "type": "git",
     "url": "https://github.com/slavamak/eslint-config.git"
@@ -27,6 +28,9 @@
   "files": [
     "dist"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "build": "tsup",
     "dev": "tsup --watch",
