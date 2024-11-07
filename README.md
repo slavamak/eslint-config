@@ -7,7 +7,7 @@ ESLint shareable configs.
 To use these configurations in your project, install the package via pnpm:
 
 ```bash
-pnpm add @slavamak/eslint-config
+pnpm add -D @slavamak/eslint-config
 ```
 
 ## Usage
