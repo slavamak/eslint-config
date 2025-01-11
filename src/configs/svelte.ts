@@ -11,7 +11,9 @@ export const svelte = mergeConfigs<Linter.Config>(
     name: '@slavamak/eslint-config/svelte',
     files: GLOB_SVELTE_SRC,
     languageOptions: {
-      parser: tseslint.parser as Linter.Parser,
+      parserOptions: {
+        parser: tseslint.parser as Linter.Parser,
+      },
     },
   },
 )
