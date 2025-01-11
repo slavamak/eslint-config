@@ -52,6 +52,7 @@
     "eslint-plugin-n": "^17.12.0",
     "eslint-plugin-react-hooks": "5.1.0-rc-33c7bd9a-20241104",
     "eslint-plugin-simple-import-sort": "^12.1.1",
+    "eslint-plugin-svelte": "^2.46.1",
     "globals": "^15.12.0",
     "typescript-eslint": "^8.13.0"
   },
