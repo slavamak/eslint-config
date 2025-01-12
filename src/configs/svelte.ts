@@ -12,6 +12,7 @@ export const svelte = mergeConfigs<Linter.Config>(
     files: GLOB_SVELTE_SRC,
     languageOptions: {
       parserOptions: {
+        extraFileExtensions: ['.svelte'],
         parser: tseslint.parser as Linter.Parser,
       },
     },
