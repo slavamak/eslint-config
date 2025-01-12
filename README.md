@@ -24,11 +24,12 @@ export default [configs.ignore, configs.base, configs.node, configs.typescript];
 
 - `base`: Basic configuration for JavaScript projects.
 - `browser`: Configuration for browser environments.
+- `ignore`: Configuration for ignoring certain files or patterns.
 - `node`: Configuration for Node.js applications.
 - `react`: Configuration for React applications.
-- `typescript`: Configuration for TypeScript projects.
 - `remix`: Configuration for Remix applications.
-- `ignore`: Configuration for ignoring certain files or patterns.
+- `svelte`: Configuration for Svelte applications.
+- `typescript`: Configuration for TypeScript projects.
 
 ## Utils
 
