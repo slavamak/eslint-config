@@ -20,6 +20,7 @@ export const base = mergeConfigs<Linter.Config>(
     rules: {
       'simple-import-sort/imports': 'error',
       'simple-import-sort/exports': 'error',
+      'jsdoc/require-jsdoc': ['warn', { enableFixer: false }],
     },
   },
 )
